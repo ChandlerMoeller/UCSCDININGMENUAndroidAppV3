@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:background="@color/dining_greensubbar"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dining Hall Name"
+        android:textSize="14sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingBottom="4dp"
+        android:id="@+id/bymeal_header_name"
+        android:layout_above="@+id/bymeal_header_hours"
+
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dining Hall Hours"
+        android:id="@+id/bymeal_header_hours"
+        android:gravity="start"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/bymeal_header_name"
+        android:layout_alignStart="@+id/bymeal_header_name"
+
+        android:paddingLeft="16dp" />
+
+</RelativeLayout>

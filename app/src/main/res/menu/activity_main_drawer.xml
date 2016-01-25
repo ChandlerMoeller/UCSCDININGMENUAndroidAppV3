@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bycurrentmeal"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/bycurrentmeal" />
+        <item
+            android:id="@+id/bydininghall"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/bydininghall" />
+    </group>
+
+    <item android:title="@string/quicklinks">
+        <menu>
+            <item
+                android:id="@+id/myucsc"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/myucsc" />
+            <item
+                android:id="@+id/ecommons"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/ecommons" />
+            <item
+                android:id="@+id/piazza"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/piazza" />
+        </menu>
+    </item>
+    <group
+        android:id="@+id/group_3">
+        <!--android:checkableBehavior="single">-->
+        <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/helpfeedback"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/helpfeedback" />
+        <item
+            android:id="@+id/about"
+            android:checked="false"
+            android:checkable="true"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/about" />
+    </group>
+
+</menu>
